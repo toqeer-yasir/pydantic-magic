@@ -17,10 +17,12 @@ git clone https://github.com/toqeer-yasir/pydantic-magic.git
 cd pydantic-magic
 ```
 
+### Prerequisite
+```bash
 pip install -r requirements.txt
-
+```
 # Repo. Structure
-
+```bash
 PYDANTIC-MAGIC/
 ├── 📂 basics/ # Start here! Core concepts
 │ ├── simple_models.py # Your first Pydantic model
@@ -42,30 +44,33 @@ PYDANTIC-MAGIC/
 ├── LICENSE
 ├── README.md
 └── requirements.txt # Project dependencies
+```
 
 # 🎯 Learning Path
 
-Stage 1: Basics (Recommended Order)
-simple_models.py - Create your first Pydantic model
+## Stage 1: Basics (Recommended Order)
+  simple_models.py - Create your first Pydantic model
 
-type_validation.py - Understand automatic type conversion
+  type_validation.py - Understand automatic type conversion
 
-field_customization.py - Add constraints and default values
+  field_customization.py - Add constraints and default values
 
-simple_models_and_f... - Combine all basic concepts
+  simple_models_and_f... - Combine all basic concepts
 
-Stage 2: Exporting Data
-to_python_dict.py - Convert models to Python dictionaries
+## Stage 2: Exporting Data
+  to_python_dict.py - Convert models to Python dictionaries
 
-to_json.py - Serialize models to JSON format
+  to_json.py - Serialize models to JSON format
 
-Stage 3: Advanced Features
-nested_models.py - Work with complex nested data
+## Stage 3: Advanced Features
+  nested_models.py - Work with complex nested data
 
-field_validator.py - Create custom validation logic
+  field_validator.py - Create custom validation logic
 
-model_validator.py - Validate relationships between fields
+  model_validator.py - Validate relationships between fields
 
-computed_field.py - Add dynamically calculated fields
+  computed_field.py - Add dynamically calculated fields
 
-annotated_for_context... - Advanced type annotations
+  annotated_for_context... - Advanced type annotations
+  
+----
