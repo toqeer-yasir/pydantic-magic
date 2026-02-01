@@ -48,7 +48,7 @@ PYDANTIC-MAGIC/
 
 # 🎯 Learning Path
 
-# Stage 1: Basics (Recommended Order)
+## Stage 1: Basics (Recommended Order)
   simple_models.py - Create your first Pydantic model
 
   type_validation.py - Understand automatic type conversion
@@ -57,12 +57,12 @@ PYDANTIC-MAGIC/
 
   simple_models_and_f... - Combine all basic concepts
 
-# Stage 2: Exporting Data
+## Stage 2: Exporting Data
   to_python_dict.py - Convert models to Python dictionaries
 
   to_json.py - Serialize models to JSON format
 
-# Stage 3: Advanced Features
+## Stage 3: Advanced Features
   nested_models.py - Work with complex nested data
 
   field_validator.py - Create custom validation logic
