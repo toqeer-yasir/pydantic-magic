@@ -20,7 +20,7 @@ cd pydantic-magic
 pip install -r requirements.txt
 
 # Repo. Structure
-
+```bash
 PYDANTIC-MAGIC/
 ├── 📂 basics/ # Start here! Core concepts
 │ ├── simple_models.py # Your first Pydantic model
@@ -42,9 +42,10 @@ PYDANTIC-MAGIC/
 ├── LICENSE
 ├── README.md
 └── requirements.txt # Project dependencies
+```
 
 # 🎯 Learning Path
-
+```bash
 Stage 1: Basics (Recommended Order)
 simple_models.py - Create your first Pydantic model
 
@@ -69,3 +70,5 @@ model_validator.py - Validate relationships between fields
 computed_field.py - Add dynamically calculated fields
 
 annotated_for_context... - Advanced type annotations
+```
+----
