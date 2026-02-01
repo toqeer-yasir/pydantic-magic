@@ -17,8 +17,10 @@ git clone https://github.com/toqeer-yasir/pydantic-magic.git
 cd pydantic-magic
 ```
 
+### Prerequisite
+```bash
 pip install -r requirements.txt
-
+```
 # Repo. Structure
 ```bash
 PYDANTIC-MAGIC/
@@ -45,30 +47,30 @@ PYDANTIC-MAGIC/
 ```
 
 # 🎯 Learning Path
-```bash
-Stage 1: Basics (Recommended Order)
-simple_models.py - Create your first Pydantic model
 
-type_validation.py - Understand automatic type conversion
+# Stage 1: Basics (Recommended Order)
+  simple_models.py - Create your first Pydantic model
 
-field_customization.py - Add constraints and default values
+  type_validation.py - Understand automatic type conversion
 
-simple_models_and_f... - Combine all basic concepts
+  field_customization.py - Add constraints and default values
 
-Stage 2: Exporting Data
-to_python_dict.py - Convert models to Python dictionaries
+  simple_models_and_f... - Combine all basic concepts
 
-to_json.py - Serialize models to JSON format
+# Stage 2: Exporting Data
+  to_python_dict.py - Convert models to Python dictionaries
 
-Stage 3: Advanced Features
-nested_models.py - Work with complex nested data
+  to_json.py - Serialize models to JSON format
 
-field_validator.py - Create custom validation logic
+# Stage 3: Advanced Features
+  nested_models.py - Work with complex nested data
 
-model_validator.py - Validate relationships between fields
+  field_validator.py - Create custom validation logic
 
-computed_field.py - Add dynamically calculated fields
+  model_validator.py - Validate relationships between fields
 
-annotated_for_context... - Advanced type annotations
-```
+  computed_field.py - Add dynamically calculated fields
+
+  annotated_for_context... - Advanced type annotations
+  
 ----
